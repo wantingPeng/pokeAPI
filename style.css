@@ -1,0 +1,40 @@
+*{
+box-sizing: border-box;  
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.img{
+  width: 200px;
+  height: 200px;
+  display: none;
+}
+#input{
+  margin-right: 0;
+  height: 48px;
+  width: 300px;
+  font-size: large;
+  border: none;
+  padding: 0;
+
+}
+body{
+  text-align: center;
+  height: 100vh;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container{
+
+  border: 1px solid gray;
+}
+#button{
+  height: 50px;
+  width: 40px;
+  border: none;
+  background-color: darkgray;
+  font-size: large;
+}
